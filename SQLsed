@@ -1,0 +1,21 @@
+#Uppercase all SQL Reserved words
+
+s/[wW][hH][eE][rR][eE]/WHERE/
+s/[tT][aA][bB][lL][eE]/TABLE/
+s/[cC][rR][eE][aA][tT][eE]/CREATE/
+s/[oO][nN] [uU][pP][dD][aA][tT][eE]/ON UPDATE/
+s/[oO][nN] [dD][eE][lL][eE][tT][eE]/ON DELETE/
+s/[sS][eE][tT] [nN][uU][lL][lL]/SET NULL/
+s/[cC][oO][nN][sS][tT][rR][aA][iI][nN][tT]/CONSTRAINT/
+s/[vV][aA][rR][cC][hH][aA][rR]/VARCHAR/
+s/[iI][nN][tT]/INT/
+s/[pP][rR][iI][mM][aA][rR][yY] [kK][eE][yY]/PRIMARY KEY/
+s/[fF][oO][rR][eE][iI][gG][nN] [kK][eE][yY]/FOREIGN KEY/
+s/[rR][eE][fF][eE][rR][eE][nN][cC][eE][sS]/REFERENCES/
+s/[dD][aA][tT][aA][bB][aA][sS][eE]/DATABASE/
+s/[uU][nN][iI][qQ][uU][eE]/UNIQUE/
+s/[dD][rR][oO][pP]/DROP/
+s/[cC][oO][lL][uU][mM][nN]/COLUMN/
+s/[aA][lL][tT][eE][rR]/ALTER/
+s/[aA][dD][dD]/ADD/
+
